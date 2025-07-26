@@ -1,0 +1,11 @@
+### Version 45.1.15.0
+\\n| Scope Item      | Total | Open | Comments |\\n|------------------|-------|------|----------|\\n| Release Epics | 11 | 0 | -\\n| Release PIRs | 0 | 0 | -\\n\\n\\n\\n### 📦 SFDC Defects Fixed\\n| ATL | BTL | Total | Comments |\\n|-----|-----|-------|----------|\\n| 83 | 26 | 109 | - |\\n\\n\\n\\n### 🎯 Target Customers\\n- **Target Customers** — **H&M** — _-_\\n\\n\\n\\n### 📊 Critical Release Metrics\\n| Functional Group | Type | Total | Open | Risk Status | Comments |\\n|------------------|------|-------|------|-------------|----------|\\n| System / Solution Test Metrics | ATL | 177 | 1 | - | - |\\n| System / Solution Test Metrics | BTL | 110 | 0 | - | - |\\n| Security Test Metrics | ATL | 0 | 0 | - | - |\\n| Security Test Metrics | BTL | 0 | 0 | - | - |\\n| Performance / Load Test Metrics | ATL | 0 | 0 | - | - |\\n| Performance / Load Test Metrics | BTL | 0 | 0 | - | - |\\n\\n\\n\\n### ✍️ Qualitative Risk Metrics\\n- **Delivery Against Requi
+2025-07-26 15:17:52,403 - ERROR - Unexpected error during markdown analysis.
+Traceback (most recent call last):
+  File "C:\Users\AS9969\Desktop\Ashish Work Folder\sc-quality-genai-platform-react-dashboard\rrr-analysis-backend\main.py", line 103, in analyze_markdown   
+    data_crew, report_crew, brief_crew, viz_crew = setup_crew_wst(harmonized_text, versions)
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\AS9969\Desktop\Ashish Work Folder\sc-quality-genai-platform-react-dashboard\rrr-analysis-backend\wst_product_config.py", line 483, in setup_crew_wst
+    raise ValueError("Metrics data is missing — cannot create visualization prompt.")
+ValueError: Metrics data is missing — cannot create visualization prompt.
+      INFO   127.0.0.1:58516 - "POST /analyze_markdown HTTP/1.1" 500
